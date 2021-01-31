@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap');
+/* 
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+/* Root styling */
+
+:root {
+	--light-color: #f8f9fa;
+	--secondary-color: #adb5bd;
+	--dark-color: #343a40;
+	--primary-color: #f15bb5;
+	--secondaryP2-color: #2ec4b6;
+	--border-color: #e9ecef;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+* > * {
+	box-sizing: border-box;
+}
+/* Global styling */
+
+.text-light {
+	color: var(--light-color);
+}
+
+.text-secondary {
+	color: var(--secondary-color);
+}
+
+.text-dark {
+	color: var(--dark-color);
+}
+
+.text-primary {
+	color: var(--primary-color);
+}
+
+.bg-light {
+	color: var(--light-color);
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: auto;
+}
+/* section styling */
+
+/* --------------- Navigation Menu ---------------- */
+.navbar {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.nav-brand {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: bold;
+	align-self: center;
+	font-size: 32px;
+}
+
+.collapse {
+	align-self: center;
+}
+
+.nav-link {
+	font-size: 18px;
+	margin: 12px;
+	font-family: 'Poppins', sans-serif;
+	color: var(--dark-color);
+}
+
+.nav-link:hover {
+	color: var(--primary-color);
+}
+
+.search-box {
+	display: inline;
+	border-right: 1px solid var(--secondary-color);
+	margin-right: 12px;
+	padding-right: 10px;
+}
+/* --------------- .Navigation Menu ---------------- */
